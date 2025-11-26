@@ -3,7 +3,7 @@ name: minicurso-devops-prod
 services:
   # Nossa Aplicação
   api:
-    image: ""
+    image: TATAmic20/minicurso-devops:lates
     container_name: fastapi-minicurso-prod
     ports:
       - "8000:8000"
